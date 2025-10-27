@@ -64,7 +64,7 @@ const AddTransactionModal = ({
 
       setTimeout(() => {
         setSuccessNotif(false);
-      }, 3000);
+      }, 5000);
     } catch (error: any) {
       const errors = error.response?.data?.errors;
 
@@ -80,7 +80,7 @@ const AddTransactionModal = ({
 
         setTimeout(() => {
           setFailedNotif(false);
-        }, 3000);
+        }, 5000);
       }
     }
   };
