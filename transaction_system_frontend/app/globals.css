@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "FC-Font";
+  src: url("/font/mazzard-h-semi-bold.otf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
