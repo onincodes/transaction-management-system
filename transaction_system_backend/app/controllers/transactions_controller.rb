@@ -15,7 +15,7 @@ class TransactionsController < ApplicationController
       "Transaction Date"      => params[:transaction_date],
       "Account Number"        => params[:account_number],
       "Account Holder Name"   => params[:account_holder_name],
-      "Amount"                => format("%.2f", params[:amount].to_f),
+      "Amount"                => params[:amount].to_f,
       "Status"                => STATUSES.sample
     }
 
