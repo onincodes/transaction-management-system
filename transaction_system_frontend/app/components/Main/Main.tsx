@@ -27,6 +27,7 @@ const Main = () => {
       const res = await api.get("/transactions");
       setTransactions(res.data);
     } catch (error) {
+      setFailedNotif(true);
       console.error("Unable to fetch transactions", error);
     }
   };
