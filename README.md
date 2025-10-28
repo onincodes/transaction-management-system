@@ -162,7 +162,7 @@ Frontend will run at: **http://localhost:3000**
   "transactionDate": "2025-10-24",
   "accountNumber": "4646-8282-1919",
   "accountHolderName": "Juan Dela Cruz",
-  "amount": "110.24",
+  "amount": 110.24,
   "status": "Failed"
 }
 ```
