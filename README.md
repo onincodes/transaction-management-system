@@ -122,20 +122,20 @@ Frontend will run at: **http://localhost:3000**
 
 ```json
 [
-  {
-    "Transaction Date": "2025-10-24",
-    "Account Number": "4646-8282-1919",
-    "Account Holder Name": "Juan Dela Cruz",
-    "Amount": "110.00",
-    "Status": "Settled"
-  },
-  {
-    "Transaction Date": "2025-10-25",
-    "Account Number": "1234-5678-9012",
-    "Account Holder Name": "John Cruz",
-    "Amount": "50.00",
-    "Status": "Pending"
-  }
+   {
+     "transactionDate": "2025-03-01",
+     "accountNumber": "7289-3445-1121",
+     "accountHolderName": "Juan Dela Cruz",
+     "amount": 181.08,
+     "status": "Settled"
+   },
+   {
+     "transactionDate": "2025-03-02",
+     "accountNumber": "1122-3456-7890",
+     "accountHolderName": "John Cruz",
+     "amount": 75.50,
+     "status": "Pending"
+   }
 ]
 ```
 
@@ -151,7 +151,7 @@ Frontend will run at: **http://localhost:3000**
   "transaction_date": "2025-10-24",
   "account_number": "4646-8282-1919",
   "account_holder_name": "Juan Dela Cruz",
-  "amount": 110.00
+  "amount": 110.24
 }
 ```
 
@@ -159,11 +159,11 @@ Frontend will run at: **http://localhost:3000**
 
 ```json
 {
-  "Transaction Date": "2025-10-24",
-  "Account Number": "4646-8282-1919",
-  "Account Holder Name": "Juan Dela Cruz",
-  "Amount": "110.00",
-  "Status": "Failed"
+  "transactionDate": "2025-10-24",
+  "accountNumber": "4646-8282-1919",
+  "accountHolderName": "Juan Dela Cruz",
+  "amount": "110.24",
+  "status": "Failed"
 }
 ```
 
